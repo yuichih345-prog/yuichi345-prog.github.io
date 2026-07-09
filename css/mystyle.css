@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+    line-height:1.8;
+    background:linear-gradient(to bottom,#ffffff,#dceeff);
+}
+
+.header-inner{
+    width:960px;
+    max-width:100%;
+    margin:auto;
+}
+
+.logo{
+    float:left;
+    width:300px;
+    height:auto;
+}
+
+nav{
+    float:right;
+    margin-top:40px;
+}
+
+nav ul{
+    list-style-type:none;
+    padding:0;
+}
+
+nav li{
+    display:inline;
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+a:active{
+    color:orange;
+}
+
+.clear{
+    clear:both;
+}
+
+.mainimage{
+    width:1000px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+
+.page{
+    width:960px;
+    max-width:100%;
+    margin:auto;
+    padding:10px;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+
+h2{
+    text-shadow:2px 2px 4px #999999;
+}
+
+.breadcrumb{
+    padding:0;
+}
+
+.breadcrumb li{
+    display:inline;
+}
+
+.point-img{
+    width:300px;
+    max-width:100%;
+    height:auto;
+    float:right;
+    margin-left:20px;
+    margin-bottom:10px;
+    box-shadow:0 0 10px 3px #aaaaaa;
+    border-radius:10px;
+}
+
+.champion-list{
+    list-style-image:url("../image/mark.png");
+}
+
+.sentou{
+    clear:both;
+    text-align:right;
+}
+
+section{
+    margin-bottom:30px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
