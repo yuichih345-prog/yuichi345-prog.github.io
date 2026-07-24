@@ -116,3 +116,88 @@ footer{
     text-align:center;
     padding:20px;
 }
+.sidebar{
+    float:right;
+    width:22%;
+    background:#eef7ff;
+    border:1px solid #7db7ff;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.sidebar h3{
+    margin-top:0;
+    color:#0044aa;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    margin-bottom:10px;
+}
+
+.sidebar a{
+    display:block;
+    padding:8px;
+    background:#ffffff;
+    text-decoration:none;
+    color:#000;
+    border:1px solid #99c2ff;
+}
+
+.sidebar a:hover{
+    background:#d9ecff;
+}
+
+.kiji{
+    float:left;
+    width:75%;
+}
+
+footer{
+    clear:both;
+}
+/* 目標ランクページ */
+
+.goal-section {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.goal-list {
+    margin: 20px 0;
+    padding-left: 40px;
+    list-style-type: disc;
+    list-style-image: none;
+}
+
+.goal-list li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.video-section {
+    clear: both;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.play-video {
+    display: block;
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 959px) {
+
+    .play-video {
+        width: 100%;
+        height: auto;
+    }
+
+}
